@@ -339,6 +339,16 @@ password history requirements.` if your password is too short.
 
 ---
 
+## Package Manager Trouble Shooting
+
+### Error: '0x00' is an invalid start of a value. Path: $ | LineNumber : 0 | BytePositionInLin : 0. 
+
+Can also result in: Upgrade of TcPkg packages failed. ExitCode: 574.
+
+Delete ```"%localappdata%\Beckhoff\TwinCAT.Package.Manager.GUI\TcPkgUiSettings.json"``` and restart
+
+---
+
 ## Package Management Command Comparison
 
 Here is a comparison of the TwinCAT Package Manager ( tcpkg ) commands alongside their equivalents in FreeBSD ( pkg ) and Debian-based Linux systems ( apt ).
