@@ -345,7 +345,9 @@ password history requirements.` if your password is too short.
 
 Can also result in: Upgrade of TcPkg packages failed. ExitCode: 574.
 
-Delete ```"%localappdata%\Beckhoff\TwinCAT.Package.Manager.GUI\TcPkgUiSettings.json"``` and restart
+Delete ```"%localappdata%\Beckhoff\TwinCAT.Package.Manager.GUI\TcPkgUiSettings.json"``` 
+Delete ```%programdata%\Beckhoff\TcPkg\lookupcache.json```
+Restart
 
 ---
 
